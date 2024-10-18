@@ -4,7 +4,7 @@ Hi, everyone.
 
 2
 00:00:00,620 --> 00:00:01,600
-I'm Rob Kuros.
+I'm Rob Quiros.
 
 3
 00:00:01,750 --> 00:00:06,880
@@ -19,21 +19,21 @@ rate you all are dealing with every day.
 5
 00:00:12,379 --> 00:00:16,530
 I hope you'll find this talk valuable, and
-I invite you to connect with me via email.
+I invite you to connect with me via email (rob at caber.com).
 
 6
 00:00:16,905 --> 00:00:22,535
-Or LinkedIn if you do I spent 30 years
-on the vendor side of IT and security
+I spent 30 years on the vendor side of 
+IT and security
 
 7
 00:00:22,535 --> 00:00:25,205
-at the likes of Cisco Riverbed Akamai.
+at the likes of Cisco, Riverbed, and Akamai.
 
 8
 00:00:26,325 --> 00:00:30,525
 And after helping build one of the
-first startups in the SAE or Secure
+first startups in the SASE or Secure
 
 9
 00:00:30,525 --> 00:00:35,165
@@ -47,7 +47,7 @@ today is completely broken.
 11
 00:00:38,085 --> 00:00:43,935
 In 2023, the false positive rate,
-according to the Sands Institute hit 95%.
+according to the SANS Institute hit 95%.
 
 12
 00:00:44,575 --> 00:00:47,605
@@ -55,13 +55,13 @@ That was up 20% since 2019.
 
 13
 00:00:49,175 --> 00:00:55,205
-And also me, we missed 20 percent
+Also, we missed 20 percent
 of all incidents despite that.
 
 14
 00:00:56,975 --> 00:01:00,715
 And it can sometimes take years
-before we could detect a compromise.
+before we can detect a compromise.
 
 15
 00:01:02,265 --> 00:01:03,895
@@ -69,7 +69,7 @@ So what's the problem here?
 
 16
 00:01:05,145 --> 00:01:09,635
-one of the issues is collectively,
+One of the issues is collectively,
 companies spend 60 billion on tools
 
 17
@@ -90,7 +90,7 @@ out not to be actual compromise.
 20
 00:01:24,274 --> 00:01:29,795
 So how do we tell the difference between
-an indicator and a true false or a
+an indicator that's a false or a
 
 21
 00:01:29,795 --> 00:01:33,964
@@ -121,12 +121,12 @@ compromises to data directly
 
 27
 00:01:57,609 --> 00:01:59,736
-instead of, Looking for indicators,
+instead of looking for these indicators?
 
 28
 00:02:02,076 --> 00:02:05,246
-the newest version of this cyber
-security framework calls out the same
+The latest version of the NIST Cyber
+Security Framework calls out the same
 
 29
 00:02:05,246 --> 00:02:07,516
@@ -134,8 +134,8 @@ protections for all states of data.
 
 30
 00:02:08,246 --> 00:02:14,106
-But the only 1 of those states where
-we can directly protect data is data
+But there's only 1 of those states where
+we can directly protect data -- data
 
 31
 00:02:14,106 --> 00:02:16,386
@@ -149,7 +149,7 @@ security products and tools.
 33
 00:02:20,166 --> 00:02:24,436
 We're only talking about securing
-data addressed, and that's because
+data-at-rest, and that's because
 
 34
 00:02:24,436 --> 00:02:29,236
@@ -168,7 +168,7 @@ when it comes to our cloud native
 
 37
 00:02:38,146 --> 00:02:43,476
-applications for data in transit and
+applications -- for data in transit and
 data in use inside those applications?
 
 38
@@ -203,7 +203,7 @@ for controlling access to the data.
 44
 00:03:12,076 --> 00:03:19,556
 It's like we're arbitrating access
-to bags of sand or bags that are
+to what's inside bags that are
 
 45
 00:03:19,556 --> 00:03:23,816
@@ -230,11 +230,11 @@ who owns that data, and who can access it.
 50
 00:03:41,036 --> 00:03:45,176
 In fact, we might as well be calling
-zero trust network access API.
+zero trust network access 
 
 51
 00:03:45,446 --> 00:03:48,276
-It's infinite trust zero access,
+Infinite trust access,
 because that's what we're doing.
 
 52
@@ -249,7 +249,7 @@ those bags to tell us what that data is.
 54
 00:03:58,906 --> 00:04:02,446
 And our so called data leakage
-prevention tools aren't any better.
+prevention (DLP) tools aren't any better.
 
 55
 00:04:02,836 --> 00:04:07,976
@@ -262,7 +262,7 @@ on who can access that data.
 
 57
 00:04:10,296 --> 00:04:15,706
-They can't tell you if it's your
+DLP can't tell you if it's your
 data or if it's my data, and that's
 
 58
@@ -276,7 +276,7 @@ doing authorization and access
 
 60
 00:04:25,101 --> 00:04:31,431
-control on data in APIs and the
+control on data in APIs.  The
 top security vulnerabilities.
 
 61
@@ -289,7 +289,7 @@ are authorization failures.
 
 63
 00:04:37,261 --> 00:04:42,811
-So in order to keep you from getting
+In order to keep you from getting
 access to my data, I need to know
 
 64
@@ -313,7 +313,7 @@ from your health care information.
 
 68
 00:04:59,341 --> 00:05:02,771
-My PII could be yours,
+My personal information could be yours,
 could be somebody else's.
 
 69
@@ -338,21 +338,21 @@ services and users that access it.
 73
 00:05:21,851 --> 00:05:26,541
 That's what we need to
-control data in use.
+control data-in-use.
 
 74
 00:05:26,956 --> 00:05:32,336
-And data, in transit, and that's going to
+and data-in-transit. And that's going to
 help us solve this false positive problem.
 
 75
 00:05:34,906 --> 00:05:41,126
 A lot of people have called this
-kind of direct control over data
+kind of direct control over 
 
 76
 00:05:41,136 --> 00:05:43,656
-in use the holy grail of security.
+data-in-use the holy grail of security.
 
 77
 00:05:44,831 --> 00:05:50,571
@@ -362,7 +362,7 @@ solve so many problems today.
 78
 00:05:51,131 --> 00:05:56,491
 We can address broken object level
-authorization, privileged articulation,
+authorization, privilege escalation,
 
 79
 00:05:56,501 --> 00:06:03,381
@@ -380,7 +380,7 @@ that these things may be happening.
 
 82
 00:06:12,071 --> 00:06:18,336
-And moreover, instead of it taking
+Moreover, instead of it taking
 us to Months, or in fact years, like
 
 83
@@ -412,7 +412,7 @@ able to do this before?
 
 89
 00:06:36,926 --> 00:06:40,981
-there's three Particularly hard
+There's three Particularly hard
 problems that have to be solved.
 
 90
@@ -437,7 +437,7 @@ ownership and permissions behind.
 94
 00:06:57,911 --> 00:07:03,386
 We're expecting that our knowledge of how
-the software works It's going to allow
+the software works is going to allow
 
 95
 00:07:03,386 --> 00:07:09,556
@@ -446,7 +446,7 @@ are authorized to move that data or not,
 
 96
 00:07:11,766 --> 00:07:13,646
-but that gets us to the second problem.
+but that gets us to the second problem,
 
 97
 00:07:14,636 --> 00:07:15,706
@@ -459,7 +459,7 @@ hide the end user identity.
 
 99
 00:07:20,276 --> 00:07:25,376
-If you have an end user that often
+If you have an end user
 that authenticates to a front end.
 
 100
@@ -483,11 +483,11 @@ to get access to the data.
 104
 00:07:39,516 --> 00:07:44,406
 It only knows the back end with
-broad access rights read some data
+broad access rights read some data.
 
 105
 00:07:44,506 --> 00:07:45,896
-and passed it to the front end.
+And the back end passes it to the front end.
 
 106
 00:07:46,266 --> 00:07:49,546
@@ -497,11 +497,11 @@ permissions are and passes it to the user.
 107
 00:07:50,346 --> 00:07:57,631
 There's no place within our applications
-where the user permissions and the
+where the user permissions, I mean
 
 108
 00:07:57,631 --> 00:08:03,406
-data permissions and the user identity
+data permissions, and the user identity
 come together for authorization.
 
 109
@@ -515,7 +515,7 @@ It comes down to data deduplication.
 
 111
 00:08:11,866 --> 00:08:18,966
-Common chunks of data, byte sequences that
+Common chunks of data, byte sequences,
 exist in multiple different documents, in
 
 112
@@ -524,7 +524,7 @@ multiple different records and databases.
 
 113
 00:08:21,416 --> 00:08:27,691
-It that form the data that
+It's chunks of data that
 we move in these APIs.
 
 114
@@ -554,7 +554,7 @@ they should be policy A or policy B.
 
 119
 00:08:59,746 --> 00:09:04,686
-Policy B, and this is the critical
+This is the critical
 problem that we're actually
 
 120
@@ -574,17 +574,17 @@ we can do some sort of access control
 123
 00:09:18,026 --> 00:09:21,826
 as those chunks of data are pulled
-out of, Out of that vector database
+out of that vector database
 
 124
 00:09:22,006 --> 00:09:27,676
-in RAG systems, but we can't and even
-copying the permissions, as I mentioned
+in RAG systems.  We can't 
+copy the permissions, as I mentioned
 
 125
 00:09:27,676 --> 00:09:31,666
-before, because of data deduplication
-means that we're not going to get
+before. Because of data deduplication
+we're not going to get
 
 126
 00:09:31,676 --> 00:09:39,596
@@ -598,7 +598,7 @@ the last document that chunk was in.
 128
 00:09:42,456 --> 00:09:49,016
 So we may be redacting information from
-all of our users that they shouldn't,
+all of our users that they _____,
 
 129
 00:09:49,106 --> 00:09:50,596
@@ -606,17 +606,17 @@ that they should have access to.
 
 130
 00:09:52,756 --> 00:09:56,436
-Moreover, we can mix these chunks
+Moreover, retreival from RAG mix these chunks
 together in a single API call.
 
 131
 00:09:57,046 --> 00:10:00,186
-And then how do we get to the permissions?
+And then how do we set the permissions
 
 132
 00:10:00,576 --> 00:10:03,376
-Of the data in aggregate
-should actually be.
+of the data in aggregate?
+What should it actually be?
 
 133
 00:10:04,376 --> 00:10:06,966
@@ -626,16 +626,16 @@ to fix these problems.
 134
 00:10:07,126 --> 00:10:12,586
 We need to be able to identify data
-as it's moving in API payloads,
+as it's moving in API payloads.
 
 135
 00:10:13,266 --> 00:10:14,976
-and we've tried this in the past.
+We've tried solutions for this in the past.
 
 136
 00:10:15,006 --> 00:10:18,196
 We've gone down the road of
-enterprise digital rights management.
+enterprise digital rights management (EDRM).
 
 137
 00:10:18,676 --> 00:10:21,516
@@ -644,7 +644,7 @@ own solution for this.
 
 138
 00:10:22,416 --> 00:10:24,666
-My company, cber is
+My company, Caber is
 proposing a new solution.
 
 139
@@ -664,29 +664,29 @@ cryptography solution.
 142
 00:10:35,986 --> 00:10:41,026
 Basically, we're encrypting the data that
-we're moving in these API payloads, and as
+we're moving in the API payloads, and
 
 143
 00:10:41,026 --> 00:10:43,186
-they were constituted on the other side.
+they're decrypted on the other side by
 
 144
 00:10:44,206 --> 00:10:48,076
-The users that have the keys
-that we've passed out to decrypt
+the users that have the keys
+that we've passed out -- users
 
 145
 00:10:48,076 --> 00:10:49,746
-that data can access them.
+that are authorized access.
 
 146
 00:10:50,446 --> 00:10:52,216
-The ones that don't can't access them.
+The ones that don't have keys can't access.
 
 147
 00:10:52,706 --> 00:10:58,156
-And it's a pretty effective way of doing
-access control on a per object basis.
+It's a pretty effective way of doing
+access control -- on a per object basis.
 
 148
 00:10:59,566 --> 00:11:03,776
@@ -696,7 +696,7 @@ and look at what happens when an API
 149
 00:11:04,766 --> 00:11:09,611
 pulls a chunk of data out of a document
-and then moves that chunk To another
+and then moves that chunk to another
 
 150
 00:11:09,611 --> 00:11:11,881
@@ -708,8 +708,8 @@ It starts to get pretty messy from there.
 
 152
 00:11:15,911 --> 00:11:21,201
-You'd have to, the service that,
-that extracts the chunk wants to
+You'd have to -- For the service 
+that extracts the chunk to
 
 153
 00:11:21,201 --> 00:11:22,651
@@ -722,7 +722,7 @@ central crypto authority to have
 
 155
 00:11:27,521 --> 00:11:29,901
-it re encrypted with a private key.
+it re-encrypted with a private key.
 
 156
 00:11:31,151 --> 00:11:34,641
@@ -735,7 +735,7 @@ people that have access to those chunks.
 
 158
 00:11:37,251 --> 00:11:40,991
-Which may not necessarily be the same
+They may not necessarily be the same
 people with access to the entire document.
 
 159
@@ -745,7 +745,7 @@ grows and the number of services,
 
 160
 00:11:45,401 --> 00:11:47,471
-this becomes simply untenable.
+grow, this becomes simply untenable.
 
 161
 00:11:48,311 --> 00:11:51,301
@@ -758,23 +758,23 @@ re encryptions we'd have to do.
 
 163
 00:11:55,761 --> 00:11:58,781
-So Google came up with a
+Google came up with a
 different solution to this.
 
 164
 00:11:58,881 --> 00:12:04,931
-As they're putting together Google
+As they were putting together Google
 Cloud, they were thinking about data
 
 165
 00:12:04,931 --> 00:12:11,076
-security, in their BeyondProd project,
-and coupled with Zanzibar, which was
+security -- explained in their BeyondProd 
+project and Zanzibar, which is
 
 166
 00:12:11,076 --> 00:12:16,706
-their central authorization engine, they
-came up with A new way of doing data
+their central authorization engine -- they
+came up with a new way of doing data
 
 167
 00:12:16,706 --> 00:12:19,346
@@ -782,27 +782,27 @@ security between their microservices.
 
 168
 00:12:20,186 --> 00:12:23,866
-So what they've done is effectively
+What they've done is effectively
 what you would do if you
 
 169
 00:12:23,866 --> 00:12:26,596
-decided to build data security.
+decided to build data security
 
 170
 00:12:26,966 --> 00:12:31,826
-Correct from the first point is you pass
-that you actually do pass the permissions
+correctly from the first point -- you pass
+-- you actually do pass the permissions
 
 171
 00:12:32,196 --> 00:12:37,746
 of all the data that you are carrying
-in your APIs all the way down to the.
+in your APIs all the way down to the
 
 172
 00:12:38,636 --> 00:12:43,456
 final point where those APIs are accessed
-by an end user, and you pass the user
+by an end user. And you pass the user
 
 173
 00:12:43,456 --> 00:12:48,536
@@ -829,7 +829,7 @@ The problem is,
 178
 00:13:04,956 --> 00:13:08,676
 the problem is that they
-had to re engineer their
+had to re-engineer their
 
 179
 00:13:08,676 --> 00:13:10,446
@@ -837,7 +837,7 @@ service to be able to do this.
 
 180
 00:13:10,796 --> 00:13:15,016
-And if you think about modern applications
+If you think about modern applications
 and enterprises that use hundreds, if
 
 181
@@ -847,16 +847,16 @@ are open source or third party sourced
 
 182
 00:13:22,256 --> 00:13:28,111
-services, How are you going to reengineer
+services -- How are you going to reengineer
 them all to pass the credentials of the
 
 183
 00:13:28,121 --> 00:13:30,441
-users or pass the permissions of the data
+users or pass the permissions of the data?
 
 184
 00:13:32,771 --> 00:13:35,471
-for most companies other than Google?
+For most companies other than Google
 
 185
 00:13:36,371 --> 00:13:38,061
